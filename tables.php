@@ -7,6 +7,7 @@
     }
     $result = $conn->query($sql);
 ?>
+<a href ="insert_form.php">เพิ่มภาพยนต์</a>
 <form action="" method="get">
   <label for="search">ช่องค้นหา</label>
   <input type ="text" name = "search" id = "search">
@@ -16,6 +17,7 @@
   <tr>
     <th>รหัสภาพยนต์</th>
     <th>ชื่อภาพยนต์</th>
+    <th>วันที่เริ่มฉาย</th>
     <th>เวลาที่เริ่มฉาย</th>
   </tr>
   <?php
@@ -26,6 +28,7 @@
     <td><?php echo $row['m_id'];?></td>
     <td><?php echo $row['m_name'];?></td>
     <td><?php echo $row['m_day'];?></td>
+    <td><?php echo $row['m_time'];?></td>
   </tr>
   <?php 
   }
