@@ -39,6 +39,7 @@
     <td><?php echo $row['m_day'];?></td>
     <td><?php echo $row['m_time'];?></td>
     <td align = "center">
+        <a href ="update_form.php?id=<?php echo $row['m_id']; ?>">แก้ไข</a>
       <a href ="?delete=1&id=<?php echo $row['m_id']; ?>">ลบ</a>
     </td>
   </tr>

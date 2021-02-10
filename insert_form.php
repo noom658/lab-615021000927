@@ -1,4 +1,4 @@
-<h3>เพิ่มนักศึกษา <small> <a href = ".">ย้อนกลับ</a></h3>
+<h3>เพิ่มภาพยนต์ <small> <a href = ".">ย้อนกลับ</a></h3>
 <form action="insert.php" method="post">
     <label for="m_id">รหัสภาพยนต์</label>
     <input type ="text" name = "m_id" id ="m_id">
